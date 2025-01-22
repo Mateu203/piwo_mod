@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "piwo_mod:block/potato_block"
+    }
+  }
+}
