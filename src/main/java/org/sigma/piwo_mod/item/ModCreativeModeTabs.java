@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
             ()-> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PIWO_A.get())).title(Component.translatable("creativetab.piwo_mod.alcohols"))
                     .displayItems((itemDisplayParameters, output) -> {
                     output.accept(ModItems.PIWO_A.get());
+                        output.accept(ModItems.PIWO_TESCO.get());
                     output.accept(ModBlocks.POTATO_BLOCK.get());
                     })
                     .build());
